@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>car game</title>
+<style>
+*{
+margin:0px;
+}
+body{
+background-image:url("https://tse4.mm.bing.net/th?id=OIP.fQArbyls9gHKPg83WNMu2AHaE8&pid=Api&P=0&h=180");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.line4{
+width:30%;
+height:100%;
+position:relative;
+background:black;
+margin:0 auto;
+}
+.line{
+width:5px;
+background:linear-gradient(black,white,black,white,black,white,black,white,black,white);
+height:85%;
+position:absolute;
+left:50%;
+animation:line linear infinite 0.8s;
+}
+.line2{
+width:5px;
+background:linear-gradient(black,white,black,white,black,white,black,white,black,white);
+height:85%;
+position:absolute;
+left:20%;
+animation:line linear infinite 0.8s;
+}
+.abc{
+width:5px;
+background:linear-gradient(black,white,black,white,black,white,black,white,black,white);
+height:85%;
+position:absolute;
+left:80%;
+animation:line linear infinite 0.8s;
+}
+
+.redcar{
+width:50px;
+height:80px;
+position:absolute;
+bottom:0px;
+left:50px;
+z-index:1;
+animation:bike linear infinite 3.5s;
+}
+.greencar{
+width:50px;
+height:80px;
+position:absolute;
+bottom:0px;
+left:180px;
+z-index:1;
+animation:bike linear infinite 4s;
+}
+.yellowcar{
+width:50px;
+height:80px;
+position:absolute;
+bottom:0px;
+right:30px;
+z-index:1;
+animation:bike linear infinite 5s;
+}
+@keyframes line{
+100%{margin-top:20%;}
+}
+@keyframes bike{
+100%{transform:translatey(-800px);}
+}
+</style>
+</head>
+<body>
+<div class="line4">
+<image src="https://www.pngkit.com/png/full/54-546494_car-png-top-view-png-blue-car-top.png" class="redcar">
+<image src="http://clipart-library.com/img/1689958.png" class="greencar">
+<image src="https://pluspng.com/img-png/car-png-top-view-png-hatchback-car-top-view-png-clipart-1092.png" class="yellowcar">
+<div class="line"></div>
+<div class="line2"></div>
+<div class="abc"></div>
+</div>
+</body>
+</html>
